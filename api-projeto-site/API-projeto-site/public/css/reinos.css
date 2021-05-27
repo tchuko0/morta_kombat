@@ -1,0 +1,251 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-size: cover;
+    /*para a imagem pagar a tela toda */
+    background-image: url();
+    /*imagem fundo */
+    background-repeat: no-repeat;
+    /*para a imagem não repetir */
+    background-color: gray;
+    
+    /* max-width: 1024px; */
+  
+  }
+  
+  /*Inicio Cabeçalho */
+  .cabecalho {
+  
+    padding-top: 10px;
+    background: hsl(20, 14%, 4%, 0.8);
+    width: 100%;
+    height: 80px;
+    color: white;
+    border-bottom: 5px solid red;
+  
+  }
+  
+  
+  
+  .caixa {
+    max-width: 1080px;
+    height: 100%;
+    margin: 0 auto;
+  }
+  
+  .list_not {
+    font-style: inherit;
+    display: inline;
+    margin-left: 22px;
+    font-size: 20px;
+    transition-duration: 0.4s;
+  
+  }
+  
+  
+  .list_not:hover {
+    color: #cb1d11;
+    /*mudar a cor da lista para vermelho */
+  }
+  
+  
+  
+  .cabecalho nav {
+    float: right;
+    margin: 0%;
+    /*para deixar a lista do lado direito da tela*/
+  }
+  
+  
+  
+  a {
+    color: inherit;
+    text-decoration: none;
+    /*estilo da lista */
+  }
+
+
+  .banner_reino {
+          background: url(../img/banner.jpg) no-repeat scroll;
+      background-size: cover;
+      text-align: left;
+      padding-right: 132px;
+      height: 400px;
+      width: 1093px;
+      padding-left: 124px;
+      margin: left;
+      margin-left: -137px
+  }
+
+  .texto_div {
+    background-color: #232323;
+    padding: 17px 292px;
+    height: 10px;
+    margin-top: 73px;
+    border-bottom: 3px solid red;
+    border-top: 3px solid red;
+    margin: 0;
+    margin-left: -134px;
+    margin-right: -134px;
+  }
+  
+.div_Kamidogu {
+
+  width: 95%;
+  float: left;
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-block-end: 50px;
+  font-size: 30px;
+  border-right: 3px solid red;
+  border-top: 3px solid red;
+  border-top-right-radius: 4px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ .img_kamidogu {
+
+  float: left;
+
+} 
+
+.div_Earthrealm {
+
+  width: 95%;
+  float: left;
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-block-end: 50px;
+  font-size: 30px;
+  border-right: 3px solid red;
+  border-top: 3px solid red;
+  border-top-right-radius: 4px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.img_Earthrealm {
+  float: right;
+}
+
+.div_Edenia {
+
+  width: 95%;
+  float: left;
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-block-end: 50px;
+  font-size: 30px;
+  border-right: 3px solid red;
+  border-top: 3px solid red;
+  border-top-right-radius: 4px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.img_Edenia {
+  float: left;
+}
+
+.div_Netherrealm {
+  width: 95%;
+  float: left;
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-block-end: 50px;
+  font-size: 30px;
+  border-right: 3px solid red;
+  border-top: 3px solid red;
+  border-top-right-radius: 4px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.img_Netherrealm {
+  float: right;
+}
+
+.div_Outworld {
+
+  width: 95%;
+  float: left;
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-block-end: 50px;
+  font-size: 30px;
+  border-right: 3px solid red;
+  border-top: 3px solid red;
+  border-top-right-radius: 4px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.img_Outworld {
+
+  float: left;
+
+}
+
+.div_Orderrealm {
+  width: 95%;
+  float: left;
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-block-end: 50px;
+  font-size: 30px;
+  border-right: 3px solid red;
+  border-top: 3px solid red;
+  border-top-right-radius: 4px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.img_Orderrealm {
+
+  float: left;
+
+}
+
+.div_Chaosrealm {
+  width: 95%;
+  float: left;
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-block-end: 50px;
+  font-size: 30px;
+  border-right: 3px solid red;
+  border-top: 3px solid red;
+  border-top-right-radius: 4px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.img_Chaosrealm {
+
+  float: right;
+
+}
+
+h3{
+  color: black;
+ 
+  margin-bottom: 0px;
+  margin: 0;
+  padding-top: 0px;
+  padding-left: 105px;
+  padding-left: 254px;
+}
+
+p{
+font-size: 20px;
+  color: black;
+  font-family: Apple Chancery, cursive;
+}
+
+.mortal {
+  color: red;
+ 
+}

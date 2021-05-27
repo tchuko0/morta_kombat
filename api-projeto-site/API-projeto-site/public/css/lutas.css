@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-size: cover;
+    /*para a imagem pagar a tela toda */
+    background-image: url(../img/fundo\ historia.jpg);
+    /*imagem fundo */
+    background-repeat: no-repeat;
+    /*para a imagem não repetir */
+    min-width: 1024px;
+    /* max-width: 1024px; */
+  
+  }
+  
+  /*Inicio Cabeçalho */
+  .cabecalho {
+  
+    padding-top: 10px;
+    background: hsl(20, 14%, 4%, 0.8);
+    width: 100%;
+    height: 80px;
+    color: white;
+    border-bottom: 5px solid red;
+  
+  }
+  
+  
+  
+  .caixa {
+    max-width: 1080px;
+    height: 100%;
+    margin: 0 auto;
+  }
+  
+  .list_not {
+    font-style: inherit;
+    display: inline;
+    margin-left: 22px;
+    font-size: 20px;
+    transition-duration: 0.4s;
+  
+  }
+  
+  
+  .list_not:hover {
+    color: #cb1d11;
+    /*mudar a cor da lista para vermelho */
+  }
+  
+  
+  
+  .cabecalho nav {
+    float: right;
+    margin: 0%;
+    /*para deixar a lista do lado direito da tela*/
+  }
+  
+  
+  
+  a {
+    color: inherit;
+    text-decoration: none;
+    /*estilo da lista */
+  }
+
+  
+.guerra h2 {
+  color:red
+}
+/* 
+.input_sant {
+  display: block;
+  margin-bottom: 20px;
+  padding: 10px 25px;
+  width: 20vw;
+
+  border-radius: 5px;
+  border: solid 1px #daa520;
+} */
+
+.kombatentes {
+  display: block;
+  margin-bottom: 20px;
+  padding: 10px 25px;
+  width: 25vw;
+
+  border-radius: 5px;
+  border: solid 1px #da2020;
+}
+
+.btn_bat {
+  color: #232323;
+  background-color:  #da2020;
+  margin: 20px 0 50px 0;
+  border: 0;
+  padding: 10px 20px;
+
+  border-radius: 5px;
+  float: left;
+  cursor: pointer;
+
+  font-family: consolas, monospace;
+}
+
+.campo{
+  /* border: 2px solid green; */
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  padding:30px;
+}
+
+.container_campo{
+  /* border: 2px solid red; */
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.vs{
+  color: #cb1d11;
+  display: flex;
+  justify-content: center;
+}
+
+/* footer */
+
+
+
+/* fim footer */
+

@@ -1,0 +1,159 @@
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-size: cover;
+  /*para a imagem pagar a tela toda */
+  background-image: url(../img/mortal-kombat-11-bosslogic_4vdm.jpg);
+  /*imagem fundo */
+  background-repeat: no-repeat;
+  /*para a imagem não repetir */
+
+
+}
+
+/*Inicio Cabeçalho */
+.cabecalho {
+
+  padding-top: 10px;
+  background: hsl(20, 14%, 4%, 0.8);
+  width: 100%;
+  height: 80px;
+  color: white;
+  border-bottom: 5px solid red;
+
+}
+
+
+
+.caixa {
+  max-width: 1080px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.list_not {
+  font-style: inherit;
+  display: inline;
+  margin-left: 22px;
+  font-size: 20px;
+  transition-duration: 0.4s;
+
+}
+
+
+.list_not:hover {
+  color: #cb1d11;
+  /*mudar a cor da lista para vermelho */
+}
+
+
+
+.cabecalho nav {
+  float: right;
+  margin: 0%;
+  /*para deixar a lista do lado direito da tela*/
+}
+
+
+
+a {
+  color: inherit;
+  text-decoration: none;
+  /*estilo da lista */
+}
+
+.p-login {
+  background-color: #ecf0f1;
+  text-align: center;
+  padding: 64px 0;
+  background-image: url(../img/fundo\ login.png);
+  background-repeat: no-repeat;
+}
+
+.login {
+  color: orangered;
+  font-family: Impact, fantasy;
+}
+
+h1{
+  font-family: Andale Mono, monospace;
+}
+
+b{
+  font-family: Andale Mono, monospace;
+}
+
+.caixa-login {
+
+  display: inline-block;
+  /* box-shadow: 6px 3px 5px 8px #ccc; */
+  padding: 40px 20px 40px 20px;
+  border-radius: 20px;
+  width: 400px;
+  font-family: 'Courier New', Courier, monospace;
+  background: hsl(20deg 14% 4% / 80%);
+}
+
+.input-padrao {
+  margin: 5px 3px 4px -1px;
+  height: 22px;
+  width: 150px;
+  border-radius: 5px;
+  border-color: rgba(128, 128, 128, 0.26);
+}
+
+.btn-laranja {
+  color: white;
+  background-color: orangered;
+  margin: 20px 0 50px 0;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.pag-login .btn-green {
+  display: block;
+  float: none;
+  margin: auto;
+  margin-top: 2%;
+}
+
+
+.rodape {
+  background: hsl(20, 14%, 4%, 0.8);
+  color: white;
+  width: 100%;
+  height: 100px;
+  padding-top: 2%;
+  margin-top: 0%;
+
+}
+
+.box_rodape {
+  /* width: 95%;
+    height: 100%; */
+  margin: 0 auto;
+}
+
+.logoMK {
+  height: 80px;
+  float: left;
+  margin: 0%;
+
+}
+
+.copyright {
+  text-align: center;
+  float: left;
+  width: 300px;
+  height: 50px;
+  margin-left: 440px;
+  margin-top: 35px;
+
+}
+
+.logo_bandtec {
+  height: 80px;
+  float: right;
+}

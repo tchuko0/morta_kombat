@@ -1,0 +1,386 @@
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-size: cover;
+  /*para a imagem pagar a tela toda */
+  background-color: silver;
+  background-repeat: no-repeat;
+  /*para a imagem não repetir */
+
+
+}
+
+/*Inicio Cabeçalho */
+.cabecalho {
+
+  padding-top: 10px;
+  background: hsl(20, 14%, 4%, 0.8);
+  width: 100%;
+  height: 80px;
+  color: white;
+  border-bottom: 5px solid red;
+
+}
+
+
+
+.caixa {
+  max-width: 1080px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.list_not {
+  font-style: inherit;
+  display: inline;
+  margin-left: 22px;
+  font-size: 20px;
+  transition-duration: 0.4s;
+
+}
+
+
+.list_not:hover {
+  color: #cb1d11;
+  /*mudar a cor da lista para vermelho */
+}
+
+
+
+.cabecalho nav {
+  float: right;
+  margin: 0%;
+  /*para deixar a lista do lado direito da tela*/
+}
+
+
+
+a {
+  color: inherit;
+  text-decoration: none;
+  /*estilo da lista */
+}
+
+.mortal_classico {
+
+  /* background: grey url(fundo\ personagem.png); */
+  background-size: cover;
+  text-align: left;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+
+}
+
+.fundo {
+  background: gray url(../img/fundo\ personagem.png);
+  background-size: cover;
+  text-align: left;
+  background-repeat: no-repeat;
+  width: 1000px;
+
+}
+
+.banner {
+  background: url(../img/banner\ baixo.jpg) no-repeat scroll;
+  background-size: cover;
+  text-align: left;
+  height: 400px;
+
+}
+
+.mortal {
+  color: red;
+  text-align: center;
+}
+
+.texto_div {
+  background-color: #232323;
+  padding: 20px 0;
+  height: 35px;
+  margin-top: 90px;
+  border-bottom: 3px solid red;
+  border-top: 3px solid red;
+  margin: 0;
+}
+
+.txt {
+  color: white;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.div_scorpion {
+
+  width: 87%;
+  float: left;
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 68px;
+  margin-block-end: 50px;
+  font-size: 30px;
+  border-right: 3px solid red;
+  border-top: 3px solid red;
+  border-top-right-radius: 4px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.img_scorpion {
+
+  float: left;
+
+}
+
+.div_sub_zero {
+
+  width: 87%;
+  float: left;
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 68px;
+  margin-block-end: 50px;
+  font-size: 30px;
+  border-right: 3px solid red;
+  border-top: 3px solid red;
+  border-top-right-radius: 4px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.img_subzero {
+  float: right;
+}
+
+.div_raiden {
+
+  width: 87%;
+  float: left;
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 68px;
+  margin-block-end: 50px;
+  font-size: 30px;
+  border-right: 3px solid red;
+  border-top: 3px solid red;
+  border-top-right-radius: 4px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.img_raiden {
+  float: left;
+}
+
+.div_sindel {
+  width: 87%;
+  float: left;
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 68px;
+  margin-block-end: 50px;
+  font-size: 30px;
+  border-right: 3px solid red;
+  border-top: 3px solid red;
+  border-top-right-radius: 4px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.img_sindel {
+  float: right;
+}
+
+.div_kitana {
+
+  width: 87%;
+  float: left;
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 68px;
+  margin-block-end: 50px;
+  font-size: 30px;
+  border-right: 3px solid red;
+  border-top: 3px solid red;
+  border-top-right-radius: 4px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.img_kitana {
+
+  float: left;
+
+}
+
+.div_millena {
+  width: 87%;
+  float: left;
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 68px;
+  margin-block-end: 50px;
+  font-size: 30px;
+  border-right: 3px solid red;
+  border-top: 3px solid red;
+  border-top-right-radius: 4px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.img_millena {
+
+  float: right;
+
+}
+
+.div_liu_kang {
+  width: 87%;
+  float: left;
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 68px;
+  margin-block-end: 50px;
+  font-size: 30px;
+  border-right: 3px solid red;
+  border-top: 3px solid red;
+  border-top-right-radius: 4px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.img_liu_kang {
+
+  float: left;
+}
+
+.div_shao_kahn {
+
+  width: 87%;
+  float: left;
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 68px;
+  margin-block-end: 50px;
+  font-size: 30px;
+  border-right: 3px solid red;
+  border-top: 3px solid red;
+  border-top-right-radius: 4px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.img_shao_kahn {
+  float: right;
+}
+
+.div_goro {
+
+  width: 87%;
+  float: left;
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 68px;
+  margin-block-end: 50px;
+  font-size: 30px;
+  border-right: 3px solid red;
+  border-top: 3px solid red;
+  border-top-right-radius: 4px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.img_goro {
+
+  float: left;
+
+}
+
+.div_shang_tsung {
+  width: 87%;
+  float: left;
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 68px;
+  margin-block-end: 50px;
+  font-size: 30px;
+  border-right: 3px solid red;
+  border-top: 3px solid red;
+  border-top-right-radius: 4px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.img_shang_tsung {
+  float: right;
+}
+
+.div_kung_lao {
+  width: 87%;
+  float: left;
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 68px;
+  margin-block-end: 50px;
+  font-size: 30px;
+  border-right: 3px solid red;
+  border-top: 3px solid red;
+  border-top-right-radius: 4px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.img_kung_lao {
+  float: left;
+}
+
+.div_johnny_cage {
+  width: 87%;
+  float: left;
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 68px;
+  margin-block-end: 50px;
+  font-size: 30px;
+  border-right: 3px solid red;
+  border-top: 3px solid red;
+  border-top-right-radius: 4px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.img_johnny_cage {
+  float: right;
+}
+
+
+
+
+.rodape {
+  background-color: #303030;
+  color: white;
+  width: 100%;
+  height: 100px;
+  padding-top: 2%;
+  margin-top: 400%;
+
+}
+
+.box_rodape {
+  /* width: 95%;
+  height: 100%; */
+  margin: 0 auto;
+}
+
+.logoMK {
+  height: 80px;
+  float: left;
+
+}
+
+.copyright {
+  text-align: center;
+  float: left;
+  width: 300px;
+  height: 50px;
+  margin-left: 440px;
+  margin-top: 35px;
+
+}
+
+.logo_bandtec {
+  height: 80px;
+  float: right;
+}

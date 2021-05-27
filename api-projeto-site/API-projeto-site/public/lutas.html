@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>História</title>
+    <link rel="stylesheet" href="../css/lutas.css">
+    <link rel="icon"
+        href="../img/kisspng-mortal-kombat-4-mortal-kombat-3-mortal-kombat-ii-m-mortal-kombat-5ac0672b0a9bf8.9445746115225587630435.png">
+</head>
+
+<body>
+    <div class="cabecalho">
+        <div class="caixa">
+            <span><a href="index.html"><img style="height: 80px;"
+                        src="../img/kisspng-mortal-kombat-4-mortal-kombat-3-mortal-kombat-ii-m-mortal-kombat-5ac0672b0a9bf8.9445746115225587630435.png"
+                        alt="Logo Mortal Kombat"></a></span>
+            <!-- <h3> <b>Projeto</b> IoT Revolucionário</h3> -->
+            <nav>
+                <ul>
+                    <li class="list_not"><a href="index.html">Home</a></li>
+                    <li class="list_not" style="color: #cb2711;"><a href="lutas.html">Lutas</a></li>
+                    <li class="list_not"><a href="reinos.html">Reinos</a></li>
+
+
+                </ul>
+            </nav>
+
+            
+        
+            <div id="div_msg" style="display: none;">
+        
+                
+        
+                <div id="lutador1" style="background-color: red; height: 30px; width: 100%;">lutador 1</div>
+        
+                <br>
+        
+                
+        
+                <div id="lutador2" style="background-color: red; height: 30px; width: 100%;">lutador 2</div>
+        
+                <br><br>
+
+                <button onclick="ataque()"  height="200px">porrada aleatoria</button>
+        
+              
+        
+                
+            </div>
+
+            
+            <div class="guerra">
+                <div class="container_sant">
+
+                    <!-- <h1>Bem vindo a arena Mortal Kombat, aqui você poderá travar batalhas intensas entre kombatentes da
+                        saga MK!</h1> -->
+
+                    <div class="campo">
+                        <div class="container_campo">
+                            <h2>ESCOLHA O KOMBATENTE</h2>
+
+
+                            Primeiro Kombatente:<select class="kombatentes" name="" id="inp_komb1">
+                                <option value="0">Selecione</option>
+                                <option value="../img/scorpion luta.jpg">Scorpion</option>
+                                <option value="../img/subzero luta.jpg">Sub-Zero</option>
+                                <option value="../img/raiden luta.jpg">Raiden</option>
+                                <option value="../img/liu kang luta.jpg">Liu Kang</option>
+                                <option value="../img/kung lao luta.jpg">Kung Lao</option>
+                                <option value="../img/kitana luta.jpg">Kitana</option>
+                                <option value="../img/millena luta.jpg">Millena</option>
+                                <option value="../img/GoroMKSM.jpg">Goro</option>
+                                <option value="../img/johnny Cage luta.jpg">Johnny Cage</option>
+                                <option value="../img/shao kahn.jpg">Shao Kahn</option>
+                                <option value="../img/shang tsung.png">Shang Tsung</option>
+                                <option value="../img/sindel.jpg">Sindel</option>
+                            </select><br><br>
+
+                            Segundo Kombatente:<select class="kombatentes" name="" id="inp_komb2">
+                                <option value="0">Selecione</option>
+                                <option value="../img/scorpion luta.jpg">Scorpion</option>
+                                <option value="../img/subzero luta.jpg">Sub-Zero</option>
+                                <option value="../img/raiden luta.jpg">Raiden</option>
+                                <option value="../img/liu kang luta.jpg">Liu Kang</option>
+                                <option value="../img/kung lao.jpg">Kung Lao</option>
+                                <option value="../img/kitana luta.jpg">Kitana</option>
+                                <option value="../img/millena luta.jpg">Millena</option>
+                                <option value="../img/GoroMKSM.jpg">Goro</option>
+                                <option value="../img/johnny Cage luta.jpg">Johnny Cage</option>
+                                <option value="../img/shao kahn.jpg">Shao Kahn</option>
+                                <option value="../img/shang tsung.png">Shang Tsung</option>
+                                <option value="../img/sindel.jpg">Sindel</option>
+                            </select><br><br>
+
+                            <button class="btn_bat" onclick="batalha()">Lutem</button>
+
+                        </div>
+
+                        <div class="imagens_ouro">
+                            <img src="" width="150px" id="img1">
+                            <span class="vs" id="vs"></span>
+                            <img src="" width="150px" id="img2">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        
+
+
+
+</body>
+
+</html>
+<script>
+    function batalha() {
+
+        div_msg.style.display = 'block';
+        if (inp_komb1.value == "0" || inp_komb2.value == "0") {
+            alert('Preencha todos os campos!')
+        } else {
+            img1.src = `imgs/${inp_komb1.value}`
+            vs.innerHTML = "VERSUS."
+            img2.src = `imgs/${inp_komb2.value}`
+        }
+
+
+        inp_komb1.value = 0;
+        inp_komb2.value = 0;
+     
+
+    }
+
+    function ataque() {
+
+        var lutador1 = 0
+        var lutador2 = 0
+        var golpes = 0
+    
+
+    var sorteio = Math.random()*11
+     golpes++;
+     var atk = Math.random()*21
+    
+        if (sorteio <5) {
+            vida1 =- atk;
+            lutador1.style.width = `${lutador1}%`;
+            ganhando()
+        } else {
+            vida2 =- atk;
+            lutador2.style.width = `${lutador2}%`;
+            ganhando()
+        }
+    
+    }
+
+
+
+
+
+
+
+
+
+</script>
