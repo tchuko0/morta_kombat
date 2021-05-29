@@ -107,7 +107,7 @@ a {
 .txt {
   color: white;
   text-align: center;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
@@ -384,3 +384,9 @@ a {
   height: 80px;
   float: right;
 }
+
+p{
+  font-size: 20px;
+    color: black;
+    font-family: Apple Chancery, cursive;
+  }
