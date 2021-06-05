@@ -14,118 +14,110 @@
 <body>
 
 
-    
 
-     <audio style="display: none;" autoplay="autoplay" controls="controls" loop >
+
+    <audio style="display: none;" autoplay="autoplay" controls="controls" loop>
         <source src="Theme_Song.mp3" type="audio/mp3" />
         seu navegador não suporta HTML5
-        </audio> 
-
-    <!-- <audio style="display: none;" controls>
-        <source src="Mortal Kombat (Theme Song).mp3" type="audio/mpeg">
-        Seu navegador não suporta áudio tag.
-    </audio> -->
+    </audio>
 
     <div class="cabecalho">
         <div class="caixa">
             <span><a href="index.html"><img style="height: 80px;"
                         src="../img/kisspng-mortal-kombat-4-mortal-kombat-3-mortal-kombat-ii-m-mortal-kombat-5ac0672b0a9bf8.9445746115225587630435.png"
                         alt="Logo Mortal Kombat"></a></span>
-            <!-- <h3> <b>Projeto</b> IoT Revolucionário</h3> -->
+            
             <nav>
                 <ul>
                     <li class="list_not"><a href="index.html">Home</a></li>
-                    <li class="list_not" style="color: #cb2711;"><a href="lutas.html">Lutas</a></li>
+                    <li class="list_not"><a href="Personagem.html">Personagens</a></li>
                     <li class="list_not"><a href="reinos.html">Reinos</a></li>
-
+                    <li class="list_not"><a href="dash.html">Grafico</a></li>
+                    <li class="list_not" style="color: #cb2711;"><a href="lutas.html">Lutas</a></li>
+                    <li class="list_not"><a
+                            href="https://newaccount1622481871789.freshdesk.com/support/tickets/new">Suporte</a></li>
 
                 </ul>
             </nav>
 
-            
-        
-           
-            
             <div class="guerra">
-                <div class="container_sant">
-
-                    <!-- <h1>Bem vindo a arena Mortal Kombat, aqui você poderá travar batalhas intensas entre kombatentes da
-                        saga MK!</h1> -->
-
-                    <div class="campo">
-                        <div class="container_campo">
-                            <h2>ESCOLHA O KOMBATENTE</h2>
+                <div class="campo">
+                    <div class="container_campo">
+                        <h2>ESCOLHA O KOMBATENTE</h2>
 
 
-                            Primeiro Kombatente:<select class="kombatentes" name="" id="inp_komb1">
-                                <option hidden>Selecione lutador 1</option>
-                                <option value="scorpion">Scorpion</option>
-                                <option value="subzero">Sub-Zero</option>
-                                <option value="raiden">Raiden</option>
-                                <option value="liu kang">Liu Kang</option>
-                                <option value="kung lao">Kung Lao</option>
-                                <option value="kitana">Kitana</option>
-                                <option value="millena">Millena</option>
-                                <option value="Goro">Goro</option>
-                                <option value="johnny Cage">Johnny Cage</option>
-                                <option value="shao kahn">Shao Kahn</option>
-                                <option value="shang tsung">Shang Tsung</option>
-                                <option value="sindel">Sindel</option>
-                            </select><br><br>
+                        Primeiro Kombatente:<select class="kombatentes" name="" id="inp_komb1">
+                            <option hidden>Selecione lutador 1</option>
+                            <option value="Scorpion">Scorpion</option>
+                            <option value="Subzero">Sub-Zero</option>
+                            <option value="Raiden">Raiden</option>
+                            <option value="Liu Kang">Liu Kang</option>
+                            <option value="Kung Lao">Kung Lao</option>
+                            <option value="Kitana">Kitana</option>
+                            <option value="Millena">Millena</option>
+                            <option value="Goro">Goro</option>
+                            <option value="Johnny Cage">Johnny Cage</option>
+                            <option value="Shao Kahn">Shao Kahn</option>
+                            <option value="Shang Tsung">Shang Tsung</option>
+                            <option value="Sindel">Sindel</option>
+                        </select><br><br>
 
-                            Segundo Kombatente:<select class="kombatentes" name="" id="inp_komb2">
-                                <option hidden>Selecione lutador 2</option>
-                                <option value="scorpion">Scorpion</option>
-                                <option value="subzero">Sub-Zero</option>
-                                <option value="raiden">Raiden</option>
-                                <option value="liu kang">Liu Kang</option>
-                                <option value="kung lao">Kung Lao</option>
-                                <option value="kitana">Kitana</option>
-                                <option value="millena">Millena</option>
-                                <option value="Goro">Goro</option>
-                                <option value="johnny Cage">Johnny Cage</option>
-                                <option value="shao kahn">Shao Kahn</option>
-                                <option value="shang tsung">Shang Tsung</option>
-                                <option value="sindel">Sindel</option>
-                              
-                            </select><br><br>
+                        Segundo Kombatente:<select class="kombatentes" name="" id="inp_komb2">
+                            <option hidden>Selecione lutador 2</option>
+                            <option value="Scorpion">Scorpion</option>
+                            <option value="Subzero">Sub-Zero</option>
+                            <option value="Raiden">Raiden</option>
+                            <option value="Liu Kang">Liu Kang</option>
+                            <option value="Kung Lao">Kung Lao</option>
+                            <option value="Kitana">Kitana</option>
+                            <option value="Millena">Millena</option>
+                            <option value="Goro">Goro</option>
+                            <option value="Johnny Cage">Johnny Cage</option>
+                            <option value="Shao Kahn">Shao Kahn</option>
+                            <option value="Shang Tsung">Shang Tsung</option>
+                            <option value="Sindel">Sindel</option>
+                        </select><br><br>
+                           
 
-                            <button class="btn_bat" onclick="batalha()">Lutem</button>
+                        
 
-                        </div>
-
-                        <div class="imagens_ouro">
-                            <img src="" width="150px" id="img1">
-                            <span class="vs" id="vs"></span>
-                            <img src="" width="150px" id="img2">
-                        </div>
+                        <button class="btn_bat" onclick="batalha()">Lutem</button>
 
                     </div>
+
+                    <div class="imagens_kombatentes">
+                        <img src="" width="150px" id="img1">
+                        <span class="vs" id="vs"></span>
+                        <img src="" width="150px" id="img2">
+                    </div>
+
                 </div>
+
             </div>
 
-        
+
             <div id="div_msg" style="display: none;">
-        
-                
-        
+
+
+
                 <div id="lutador1" style="background-color: red; height: 30px; width: 100%;">Kombatente 1</div>
-        
+
                 <br>
-        
-                
-        
+
+
+
                 <div id="lutador2" style="background-color: red; height: 30px; width: 100%;">Kombatente 2</div>
-        
+
                 <br>
 
-                <button onclick="ataque()"  height="200px">porrada aleatoria</button>
-        
-              <div id="exibir"></div>
-        
-                
-            </div>
+                <button onclick="ataque()" height="200px">Golpear Adversario</button>
 
+                <br>
+
+                <div id="exibir"></div>
+
+
+            </div>
 
 
 </body>
@@ -142,100 +134,79 @@
             vs.innerHTML = "VERSUS."
             img2.src = `../img/${inp_komb2.value}.jpg`
 
-            if (inp_komb1.value == "scorpion"||inp_komb1.value == "Goro") {
+            if (inp_komb1.value == "Scorpion" || inp_komb1.value == "Goro") {
                 lutador1.style.backgroundColor = "gold"
-            
-            } else if (inp_komb1.value == "sindel" || inp_komb1.value == "millena") {
+
+            } else if (inp_komb1.value == "Sindel" || inp_komb1.value == "Millena") {
                 lutador1.style.backgroundColor = "purple"
 
-            } else if (inp_komb1.value == "subzero" || inp_komb1.value == "kung lao" || inp_komb1.value == "kitana" || inp_komb1.value == "raiden" ) {
+            } else if (inp_komb1.value == "Subzero" || inp_komb1.value == "Kung Lao" || inp_komb1.value == "Kitana" ||
+                inp_komb1.value == "Raiden") {
                 lutador1.style.backgroundColor = "blue"
 
-            } else if (inp_komb1.value == "johnny cage" ||  inp_komb1.value == "shang tsung") {
+            } else if (inp_komb1.value == "Johnny Cage" || inp_komb1.value == "Shang Tsung") {
                 lutador1.style.backgroundColor = "green"
             }
         }
 
-        if (inp_komb2.value == "scorpion"||inp_komb2.value == "Goro") {
-                lutador2.style.backgroundColor = "gold"
-            
-            } else if (inp_komb2.value == "sindel" || inp_komb2.value == "millena") {
-                lutador2.style.backgroundColor = "purple"
+        if (inp_komb2.value == "Scorpion" || inp_komb2.value == "Goro") {
+            lutador2.style.backgroundColor = "gold"
 
-            } else if (inp_komb2.value == "subzero" || inp_komb2.value == "kung lao" || inp_komb2.value == "kitana" || inp_komb1.value == "raiden" ) {
-                lutador2.style.backgroundColor = "blue"
+        } else if (inp_komb2.value == "Sindel" || inp_komb2.value == "Millena") {
+            lutador2.style.backgroundColor = "purple"
 
-            } else if (inp_komb2.value == "johnny cage" ||  inp_komb2.value == "shang tsung") {
-                lutador2.style.backgroundColor = "green"
-            }
+        } else if (inp_komb2.value == "Subzero" || inp_komb2.value == "Kung Lao" || inp_komb2.value == "Kitana" ||
+            inp_komb1.value == "Raiden") {
+            lutador2.style.backgroundColor = "blue"
+
+        } else if (inp_komb2.value == "Johnny Cage" || inp_komb2.value == "Shang Tsung") {
+            lutador2.style.backgroundColor = "green"
+        }
 
 
-        inp_komb1.value = 0;
-        inp_komb2.value = 0;
-     
+        lutador1.innerHTML = `${inp_komb1.value}`;
+        lutador2.innerHTML = `${inp_komb2.value}`;
 
     }
 
-    var vida1  = 100;
-    var vida2  = 100;
-   
-
+    var vida1 = 100;
+    var vida2 = 100;
 
     function ataque() {
-
-
-        
-        var golpes = 0;
-        var dener1 = 0;
-        var dener2 = 0;
-        
-
-    var sorteio = parseInt(Math.random()* 2 + 1);
-     golpes++;
-     var atk = parseInt(Math.random()* 11 + 10);
     
+        var golpes = 0;
+      
+
+        var sorteio = parseInt(Math.random() * 2 + 1);
+        golpes++;
+        var atk = parseInt(Math.random() * 11 + 10);
+
         if (sorteio == 1) {
             vida1 = vida1 - atk;
             lutador1.style.width = `${vida1}%`;
-            
-        } else if (sorteio == 2 ) {
+
+        } else if (sorteio == 2) {
             vida2 = vida2 - atk;
             lutador2.style.width = `${vida2}%`;
-      
-        }      
-        
-        if (vida1 <= 0 ) {
-            lutador1.style.width = 0;
-            setTimeout(alert(` Kombatente 2 ganhou`),1000);
 
-        
-            
-        
+        }
+
+        if (vida1 <= 0) {
+            lutador1.style.width = 0;
+            setTimeout(alert(` ${inp_komb2.value} Wins `), 1000);
+
+
+
+
         } else if (vida2 <= 0) {
             lutador2.style.width = 0;
-        
-            setTimeout(alert(` Kombatente 1  ganhou`),1000);
 
-       
-            
-                
-            }
-           
-        } 
-            
-        
-        
-           
-        
-    
-    
+            setTimeout(alert(`  ${inp_komb1.value} Wins`), 1000);
 
 
 
 
+        }
 
-
-
-
-
+    }
 </script>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/dash.css">
+    <link rel="icon" href="img/kisspng-mortal-kombat-4-mortal-kombat-3-mortal-kombat-ii-m-mortal-kombat-5ac0672b0a9bf8.9445746115225587630435.png">
+</head>
+
+<div class="grafico">
+<script
+src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.0.2/chart.min.js"
+integrity="sha512-dnUg2JxjlVoXHVdSMWDYm2Y5xcIrJg1N+juOuRi0yLVkku/g26rwHwysJDAMwahaDfRpr1AxFz43ktuMPr/l1A=="
+crossorigin="anonymous"
+></script>
+</div>
+
+<body>
+    
+
+    <div class="cabecalho">
+        <div class="caixa">
+            <span><img style="height: 80px;"
+                src="img/kisspng-mortal-kombat-4-mortal-kombat-3-mortal-kombat-ii-m-mortal-kombat-5ac0672b0a9bf8.9445746115225587630435.png"></span>
+          
+          <nav>
+            <ul>
+                <li class="list_not"><a href="index.html">Home</a></li>
+                <li class="list_not"><a href="Personagem.html">Personagens</a></li>
+                <li class="list_not"><a href="reinos.html">Reinos</a></li>
+                <li class="list_not" style="color: #cb2711;" ><a href="dash.html">Grafico</a></li>
+                <li class="list_not"><a href="lutas.html">Lutas</a></li>
+                <li class="list_not"><a
+                        href="https://newaccount1622481871789.freshdesk.com/support/tickets/new">Suporte</a></li>
+    
+            </ul>
+          </nav>
+    
+        </div>
+      </div>
+
+
+</body>
+</html>
+<br><br>
+<h1>Abaixo o grafico dos <span style="color: red;" >kombatentes</span>  favoritos do publico</h1>
+<br><br>
+<div  class="grafico_personagem">
+    <canvas id="favoritos"></canvas>
+    </div>
+
+   
+
+<script>
+   
+    var ctx = favoritos.getContext("2d");
+    
+  
+    var config = {
+        type: "bar", 
+        data: {
+            labels: ["", "Scorpion", "Subzero", "Raiden", "Sindel", "Kitana", "Millena", "Liu Kang", "Shao Kahn", "Goro",
+        "Shang Tsung","Kung Lao","Johnny Cage"], 
+            datasets: [
+            {
+                label: "kombatentes ", 
+                data: [0, 17, 15, 10, 6, 7, 5, 13, 10, 8, 9, 5, 2], 
+                backgroundColor: [
+                "pink",
+                "yellow",
+                "rgb(30, 144, 255)",
+                "white",
+                "purple",
+                "blue",
+                "fuchsia",
+                "red", 
+                "beige", 
+                "rgb(255, 69, 0)", 
+                "green", 
+                "grey", 
+                "#77dd77", 
+               
+                ],
+                borderColor: [
+                "rgb(0, 0, 0)",
+                "rgb(0, 0, 0)",
+                "rgb(0, 0, 0)",
+                "rgb(0, 0, 0)",
+                "rgb(0, 0, 0)",
+                "rgb(0, 0, 0)",
+                "rgb(0, 0, 0)",
+                "rgb(0, 0, 0)",
+                "rgb(0, 0, 0)",
+                "rgb(0, 0, 0)",
+                "rgb(0, 0, 0)",
+                
+                ],
+                borderWidth: 1,
+            },
+            ],
+        },
+        options: {
+            scales:  {
+                y: {
+                    beginAtZero: true, 
+                },
+            },
+        },
+    };
+    
+    new Chart(ctx, config); 
+
+    
+
+</script>
+
+
+
+<!--Rodapé -->
+<footer class="rodape">
+    <div class="box_rodape">
+      <img class="logoMK" src="img/MKsemfundo.png">
+      <div class="copyright">
+        <span>Mortal kombat - Copyright © 2021</span>
+      </div>
+      <img class="logo_bandtec" src="img/bandtec.png">
+    </div>
+  </footer>
+

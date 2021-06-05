@@ -69,17 +69,7 @@ body {
 .guerra h2 {
   color:red
 }
-/* 
-.input_sant {
-  display: block;
-  margin-bottom: 20px;
-  padding: 10px 25px;
-  width: 20vw;
-
-  border-radius: 5px;
-  border: solid 1px #daa520;
-} */
-
+ 
 .kombatentes {
   display: block;
   margin-bottom: 20px;
@@ -105,7 +95,6 @@ body {
 }
 
 .campo{
-  /* border: 2px solid green; */
   display:flex;
   justify-content: space-around;
   align-items: center;
@@ -113,7 +102,6 @@ body {
 }
 
 .container_campo{
-  /* border: 2px solid red; */
   flex: 1;
   display: flex;
   justify-content: center;
@@ -127,9 +115,4 @@ body {
   justify-content: center;
 }
 
-/* footer */
-
-
-
-/* fim footer */
 

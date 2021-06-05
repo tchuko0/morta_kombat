@@ -72,14 +72,6 @@ a {
 
 }
 
-.fundo {
-  background: gray url(../img/fundo\ personagem.png);
-  background-size: cover;
-  text-align: left;
-  background-repeat: no-repeat;
-  width: 1000px;
-
-}
 
 .banner {
   background: url(../img/banner\ baixo.jpg) no-repeat scroll;
@@ -347,6 +339,14 @@ a {
 
 
 
+ .grafico_personagem{
+width: 800px;
+height: 800px;
+margin-left: 250px;
+margin-bottom: 1064px;
+} 
+
+
 
 .rodape {
   background-color: #303030;
@@ -385,8 +385,8 @@ a {
   float: right;
 }
 
-p{
+p {
   font-size: 20px;
-    color: black;
-    font-family: Apple Chancery, cursive;
-  }
+  color: black;
+  font-family: Apple Chancery, cursive;
+}
