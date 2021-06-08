@@ -87,7 +87,6 @@ b {
 .caixa-login {
 
   display: inline-block;
-  /* box-shadow: 6px 3px 5px 8px #ccc; */
   padding: 40px 20px 40px 20px;
   border-radius: 20px;
   width: 400px;
@@ -131,8 +130,6 @@ b {
 }
 
 .box_rodape {
-  /* width: 95%;
-    height: 100%; */
   margin: 0 auto;
 }
 
@@ -140,6 +137,7 @@ b {
   height: 80px;
   float: left;
   margin: 0%;
+  margin-left: 53px;
 
 }
 
@@ -156,4 +154,5 @@ b {
 .logo_bandtec {
   height: 80px;
   float: right;
+  margin-right: 53px;
 }

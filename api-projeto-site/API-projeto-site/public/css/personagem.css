@@ -4,7 +4,7 @@ body {
   border: 0;
   background-size: cover;
   /*para a imagem pagar a tela toda */
-  background-color: silver;
+  background-color: grey;
   background-repeat: no-repeat;
   /*para a imagem não repetir */
 
@@ -63,8 +63,6 @@ a {
 }
 
 .mortal_classico {
-
-  /* background: grey url(fundo\ personagem.png); */
   background-size: cover;
   text-align: left;
   background-repeat: no-repeat;
@@ -339,12 +337,12 @@ a {
 
 
 
- .grafico_personagem{
-width: 800px;
-height: 800px;
-margin-left: 250px;
-margin-bottom: 1064px;
-} 
+.grafico_personagem {
+  width: 800px;
+  height: 800px;
+  margin-left: 250px;
+  margin-bottom: 1064px;
+}
 
 
 
@@ -367,6 +365,7 @@ margin-bottom: 1064px;
 .logoMK {
   height: 80px;
   float: left;
+  margin-left: 53px;
 
 }
 
@@ -383,6 +382,7 @@ margin-bottom: 1064px;
 .logo_bandtec {
   height: 80px;
   float: right;
+  margin-right: 53px;
 }
 
 p {

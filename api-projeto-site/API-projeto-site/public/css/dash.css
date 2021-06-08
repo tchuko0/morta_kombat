@@ -73,13 +73,23 @@ a {
     margin-left: 250px;
     margin-bottom: 74px;
     font-style: normal;
-    background:rgba(0, -1, -7, 0.8);
+    background: rgba(0, -1, -7, 0.8);
     margin-top: 10px;
-
 
 }
 
-h1{
+.grafico_reino {
+    width: 800px;
+    height: 417px;
+    margin-left: 250px;
+    margin-bottom: 74px;
+    font-style: normal;
+    background: rgba(0, -1, -7, 0.8);
+    margin-top: 10px;
+
+}
+
+h1 {
     color: white;
     margin-left: 10px;
 }
@@ -104,6 +114,7 @@ h1{
 .logoMK {
     height: 80px;
     float: left;
+    margin-left: 53px;
 
 }
 
@@ -120,4 +131,5 @@ h1{
 .logo_bandtec {
     height: 80px;
     float: right;
+    margin-right: 53px;
 }

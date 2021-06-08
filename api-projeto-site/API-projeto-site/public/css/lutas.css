@@ -1,75 +1,75 @@
 body {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    background-size: cover;
-    /*para a imagem pagar a tela toda */
-    background-image: url(../img/fundo\ historia.jpg);
-    /*imagem fundo */
-    background-repeat: no-repeat;
-    /*para a imagem não repetir */
-    min-width: 1024px;
-    /* max-width: 1024px; */
-  
-  
-  }
-  
-  /*Inicio Cabeçalho */
-  .cabecalho {
-  
-    padding-top: 10px;
-    background: hsl(20, 14%, 4%, 0.8);
-    width: 100%;
-    height: 80px;
-    color: white;
-    border-bottom: 5px solid red;
-  
-  }
-  
-  
-  
-  .caixa {
-    max-width: 1080px;
-    height: 100%;
-    margin: 0 auto;
-  }
-  
-  .list_not {
-    font-style: inherit;
-    display: inline;
-    margin-left: 22px;
-    font-size: 20px;
-    transition-duration: 0.4s;
-  
-  }
-  
-  
-  .list_not:hover {
-    color: #cb1d11;
-    /*mudar a cor da lista para vermelho */
-  }
-  
-  
-  
-  .cabecalho nav {
-    float: right;
-    margin: 0%;
-    /*para deixar a lista do lado direito da tela*/
-  }
-  
-  
-  
-  a {
-    color: inherit;
-    text-decoration: none;
-    /*estilo da lista */
-  }
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-size: cover;
+  /*para a imagem pagar a tela toda */
+  background-image: url(../img/fundo\ historia.jpg);
+  /*imagem fundo */
+  background-repeat: no-repeat;
+  /*para a imagem não repetir */
+  min-width: 1024px;
+  /* max-width: 1024px; */
 
-  
-.guerra h2 {
-  color:red
+
 }
- 
+
+/*Inicio Cabeçalho */
+.cabecalho {
+
+  padding-top: 10px;
+  background: hsl(20, 14%, 4%, 0.8);
+  width: 100%;
+  height: 80px;
+  color: white;
+  border-bottom: 5px solid red;
+
+}
+
+
+
+.caixa {
+  max-width: 1080px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.list_not {
+  font-style: inherit;
+  display: inline;
+  margin-left: 22px;
+  font-size: 20px;
+  transition-duration: 0.4s;
+
+}
+
+
+.list_not:hover {
+  color: #cb1d11;
+  /*mudar a cor da lista para vermelho */
+}
+
+
+
+.cabecalho nav {
+  float: right;
+  margin: 0%;
+  /*para deixar a lista do lado direito da tela*/
+}
+
+
+
+a {
+  color: inherit;
+  text-decoration: none;
+  /*estilo da lista */
+}
+
+
+.guerra h2 {
+  color: red
+}
+
 .kombatentes {
   display: block;
   margin-bottom: 20px;
@@ -82,26 +82,52 @@ body {
 
 .btn_bat {
   color: #232323;
-  background-color:  #da2020;
+  background-color: #da2020;
   margin: 20px 0 50px 0;
   border: 0;
   padding: 10px 20px;
-
   border-radius: 5px;
   float: left;
   cursor: pointer;
-
   font-family: consolas, monospace;
+  margin-right: 250px;
 }
 
-.campo{
-  display:flex;
+.btn_rec {
+
+  color: #232323;
+  background-color: #da2020;
+  margin: 20px 0 50px 0;
+  border: 0;
+  padding: 10px 20px;
+  margin-left: 200px;
+  border-radius: 5px;
+  float: left;
+  cursor: pointer;
+  font-family: consolas, monospace;
+  margin-top: -84px;
+}
+
+.btn_atk {
+  border-radius: 5px;
+  color: #232323;
+  background-color: #da2020;
+  cursor: pointer;
+  font-family: consolas, monospace;
+  border: 0;
+  margin-top: -84px;
+
+}
+
+
+.campo {
+  display: flex;
   justify-content: space-around;
   align-items: center;
-  padding:30px;
+  padding: 30px;
 }
 
-.container_campo{
+.container_campo {
   flex: 1;
   display: flex;
   justify-content: center;
@@ -109,10 +135,8 @@ body {
   flex-direction: column;
 }
 
-.vs{
+.vs {
   color: #cb1d11;
   display: flex;
   justify-content: center;
 }
-
-

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -26,7 +26,7 @@
             <span><a href="index.html"><img style="height: 80px;"
                         src="../img/kisspng-mortal-kombat-4-mortal-kombat-3-mortal-kombat-ii-m-mortal-kombat-5ac0672b0a9bf8.9445746115225587630435.png"
                         alt="Logo Mortal Kombat"></a></span>
-            
+
             <nav>
                 <ul>
                     <li class="list_not"><a href="index.html">Home</a></li>
@@ -77,11 +77,16 @@
                             <option value="Shang Tsung">Shang Tsung</option>
                             <option value="Sindel">Sindel</option>
                         </select><br><br>
-                           
 
-                        
+
+
 
                         <button class="btn_bat" onclick="batalha()">Lutem</button>
+
+
+                        <input class="btn_rec" type="button" value="Lutar novamente" onClick="window.location.reload()">
+
+
 
                     </div>
 
@@ -110,7 +115,7 @@
 
                 <br>
 
-                <button onclick="ataque()" height="200px">Golpear Adversario</button>
+                <button class="btn_atk" id="btn_atk" onclick="ataque()" height="200px">Golpear Adversario</button>
 
                 <br>
 
@@ -173,13 +178,13 @@
     var vida2 = 100;
 
     function ataque() {
-    
+
         var golpes = 0;
-      
+
 
         var sorteio = parseInt(Math.random() * 2 + 1);
         golpes++;
-        var atk = parseInt(Math.random() * 11 + 10);
+        var atk = parseInt(Math.random() * 6 + 5);
 
         if (sorteio == 1) {
             vida1 = vida1 - atk;
@@ -193,20 +198,30 @@
 
         if (vida1 <= 0) {
             lutador1.style.width = 0;
-            setTimeout(alert(` ${inp_komb2.value} Wins `), 1000);
-
-
-
-
-        } else if (vida2 <= 0) {
             lutador2.style.width = 0;
+            lutador1.innerHTML = " ";
+            lutador2.innerHTML = " ";
+
+            setTimeout(alert(` ${inp_komb2.value} Wins `), 1000);
+            alert("Fim da luta ");
+
+
+
+          } else if (vida2 <= 0) {
+            lutador2.style.width = 0;
+            lutador1.style.width = 0;
+            lutador1.innerHTML = " ";
+            lutador2.innerHTML = " ";
 
             setTimeout(alert(`  ${inp_komb1.value} Wins`), 1000);
+            alert("Fim da luta");
 
 
 
 
         }
+
+
 
     }
 </script>
